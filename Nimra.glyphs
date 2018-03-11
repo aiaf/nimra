@@ -17,9 +17,20 @@ designerURL = "https://makkuk.com/";
 familyName = Nimra;
 featurePrefixes = (
 {
-automatic = 1;
-code = "languagesystem DFLT dflt;\012";
+code = "languagesystem DFLT dflt;\012languagesystem arab dflt;";
 name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature init;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "sub zero-ar by zero-ar.init;\012";
+name = init;
 }
 );
 fontMaster = (
@@ -164,7 +175,7 @@ xHeight = 520;
 glyphs = (
 {
 glyphname = zero;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -245,7 +256,7 @@ unicode = 0030;
 },
 {
 glyphname = one;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -324,7 +335,7 @@ unicode = 0031;
 },
 {
 glyphname = two;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -413,7 +424,7 @@ unicode = 0032;
 },
 {
 glyphname = three;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -510,7 +521,7 @@ unicode = 0033;
 },
 {
 glyphname = four;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -590,7 +601,7 @@ unicode = 0034;
 },
 {
 glyphname = five;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -679,7 +690,7 @@ unicode = 0035;
 },
 {
 glyphname = six;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -789,7 +800,7 @@ unicode = 0036;
 },
 {
 glyphname = seven;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -905,7 +916,7 @@ unicode = 0037;
 },
 {
 glyphname = eight;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -1052,7 +1063,7 @@ unicode = 0038;
 },
 {
 glyphname = nine;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -1142,8 +1153,38 @@ width = 1250;
 unicode = 0039;
 },
 {
+color = 0;
+glyphname = "zero-ar.init";
+lastChange = "2018-03-11 21:03:29 +0000";
+layers = (
+{
+annotations = (
+{
+position = "{764, 1227}";
+text = "This glyph is hack to make a numeral only font render in Firefox.";
+type = Text;
+width = 138;
+},
+{
+position = "{765, 1051}";
+text = "Firefox needs the init table populated to render Arabic, and this creates a dummy entry which replaces zero with itself.";
+type = Text;
+}
+);
+components = (
+{
+alignment = 1;
+name = "zero-ar";
+}
+);
+layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
+width = 1250;
+}
+);
+},
+{
 glyphname = "zero-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -1194,7 +1235,7 @@ unicode = 0660;
 },
 {
 glyphname = "one-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -1253,7 +1294,7 @@ unicode = 0661;
 },
 {
 glyphname = "two-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -1413,7 +1454,7 @@ unicode = 0662;
 },
 {
 glyphname = "three-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -1591,7 +1632,7 @@ unicode = 0663;
 },
 {
 glyphname = "four-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -1955,7 +1996,7 @@ unicode = 0664;
 },
 {
 glyphname = "five-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -2244,7 +2285,7 @@ unicode = 0665;
 },
 {
 glyphname = "six-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -2394,7 +2435,7 @@ unicode = 0666;
 },
 {
 glyphname = "seven-ar";
-lastChange = "2018-03-11 17:10:27 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -2681,7 +2722,7 @@ unicode = 0667;
 },
 {
 glyphname = "eight-ar";
-lastChange = "2018-03-11 17:10:21 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -2760,7 +2801,7 @@ unicode = 0668;
 },
 {
 glyphname = "nine-ar";
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -2851,7 +2892,7 @@ unicode = 0669;
 },
 {
 glyphname = space;
-lastChange = "2018-02-26 14:25:54 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -2862,7 +2903,7 @@ unicode = 0020;
 },
 {
 glyphname = ocrAmountOfCheck;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -2971,7 +3012,7 @@ unicode = 2447;
 },
 {
 glyphname = ocrBranchBankIdentification;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -3082,7 +3123,7 @@ unicode = 2446;
 },
 {
 glyphname = ocrCustomerAccount;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
@@ -3191,7 +3232,7 @@ unicode = 2449;
 },
 {
 glyphname = ocrDash;
-lastChange = "2018-03-11 17:09:37 +0000";
+lastChange = "2018-03-11 21:03:29 +0000";
 layers = (
 {
 annotations = (
@@ -3318,5 +3359,5 @@ manufacturer = Makkuk;
 manufacturerURL = "https://makkuk.com/nimra";
 unitsPerEm = 1250;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
