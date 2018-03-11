@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>eight</key>
+	<string>eight.glif</string>
+	<key>five</key>
+	<string>five.glif</string>
+	<key>four</key>
+	<string>four.glif</string>
+	<key>nine</key>
+	<string>nine.glif</string>
+	<key>one</key>
+	<string>one.glif</string>
+	<key>seven</key>
+	<string>seven.glif</string>
+	<key>six</key>
+	<string>six.glif</string>
+	<key>space</key>
+	<string>space.glif</string>
+	<key>three</key>
+	<string>three.glif</string>
+	<key>two</key>
+	<string>two.glif</string>
+	<key>uni0660</key>
+	<string>uni0660.glif</string>
+	<key>uni0661</key>
+	<string>uni0661.glif</string>
+	<key>uni0662</key>
+	<string>uni0662.glif</string>
+	<key>uni0663</key>
+	<string>uni0663.glif</string>
+	<key>uni0664</key>
+	<string>uni0664.glif</string>
+	<key>uni0665</key>
+	<string>uni0665.glif</string>
+	<key>uni0666</key>
+	<string>uni0666.glif</string>
+	<key>uni0667</key>
+	<string>uni0667.glif</string>
+	<key>uni0668</key>
+	<string>uni0668.glif</string>
+	<key>uni0669</key>
+	<string>uni0669.glif</string>
+	<key>uni2446</key>
+	<string>uni2446.glif</string>
+	<key>uni2447</key>
+	<string>uni2447.glif</string>
+	<key>uni2448</key>
+	<string>uni2448.glif</string>
+	<key>uni2449</key>
+	<string>uni2449.glif</string>
+	<key>zero</key>
+	<string>zero.glif</string>
+</dict>
+</plist>

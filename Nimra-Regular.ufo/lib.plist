@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+	<false/>
+	<key>com.schriftgestaltung.font.licenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>com.schriftgestaltung.font.sampleText</key>
+	<string>٠١٢٣٤٥٦٧٨٩ 0123456789</string>
+	<key>com.schriftgestaltung.fontMaster.userData</key>
+	<dict>
+		<key>GSCornerRadius</key>
+		<integer>260</integer>
+		<key>GSOffsetHorizontal</key>
+		<integer>65</integer>
+		<key>GSOffsetMakeStroke</key>
+		<integer>1</integer>
+		<key>GSOffsetPosition</key>
+		<integer>1</integer>
+		<key>GSOffsetVertical</key>
+		<integer>65</integer>
+	</dict>
+	<key>com.schriftgestaltung.fontMasterID</key>
+	<string>5AEFF443-300A-40AC-BA7E-D2439C71845E</string>
+	<key>com.schriftgestaltung.glyphOrder</key>
+	<false/>
+	<key>com.schriftgestaltung.gridSize</key>
+	<integer>130</integer>
+	<key>com.schriftgestaltung.gridSubDivision</key>
+	<integer>130</integer>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<true/>
+	<key>public.glyphOrder</key>
+	<array>
+		<string>zero</string>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
+		<string>four</string>
+		<string>five</string>
+		<string>six</string>
+		<string>seven</string>
+		<string>eight</string>
+		<string>nine</string>
+		<string>uni0660</string>
+		<string>uni0661</string>
+		<string>uni0662</string>
+		<string>uni0663</string>
+		<string>uni0664</string>
+		<string>uni0665</string>
+		<string>uni0666</string>
+		<string>uni0667</string>
+		<string>uni0668</string>
+		<string>uni0669</string>
+		<string>space</string>
+		<string>uni2447</string>
+		<string>uni2446</string>
+		<string>uni2449</string>
+		<string>uni2448</string>
+	</array>
+</dict>
+</plist>
