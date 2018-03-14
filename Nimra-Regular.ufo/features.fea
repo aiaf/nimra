@@ -4,11 +4,13 @@ languagesystem arab dflt;
 
 feature aalt {
 # automatic
-feature init;
+feature ccmp;
 } aalt;
 
-feature init {
-# automatic
-sub uni0660 by uni0660.init;
-} init;
+feature ccmp {
+# Firefox will only render Arabic if the font contains a GSUB feature
+# with `arab` script. This hack is to make the font work with Firefox.
+# Source: https://twitter.com/KhaledGhetas/status/972980538238783489
+sub uni0660 by uni0660;
+} ccmp;
 

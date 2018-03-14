@@ -13,7 +13,7 @@
 	<key>familyName</key>
 	<string>Nimra</string>
 	<key>openTypeHeadCreated</key>
-	<string>2018/03/11 20:45:20</string>
+	<string>2018/03/14 18:08:10</string>
 	<key>openTypeHheaAscender</key>
 	<integer>1210</integer>
 	<key>openTypeNameDesigner</key>
@@ -76,7 +76,7 @@
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>1</integer>
+	<integer>2</integer>
 	<key>xHeight</key>
 	<integer>520</integer>
 </dict>

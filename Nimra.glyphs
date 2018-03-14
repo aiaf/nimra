@@ -1,5 +1,5 @@
 {
-.appVersion = "1119";
+.appVersion = "1122";
 copyright = "Copyright (c) 2018, Abdullah Arif (abdullah.a@gmail.com).";
 customParameters = (
 {
@@ -11,7 +11,7 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 }
 );
-date = "2018-03-11 16:45:20 +0000";
+date = "2018-03-14 14:08:10 +0000";
 designer = "Abdullah Arif";
 designerURL = "https://makkuk.com/";
 familyName = Nimra;
@@ -24,13 +24,12 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature init;\012";
+code = "feature ccmp;\012";
 name = aalt;
 },
 {
-automatic = 1;
-code = "sub zero-ar by zero-ar.init;\012";
-name = init;
+code = "# Firefox will only render Arabic if the font contains a GSUB feature\012# with `arab` script. This hack is to make the font work with Firefox.\012# Source: https://twitter.com/KhaledGhetas/status/972980538238783489\012sub zero-ar by zero-ar;";
+name = ccmp;
 }
 );
 fontMaster = (
@@ -1151,36 +1150,6 @@ width = 1250;
 }
 );
 unicode = 0039;
-},
-{
-color = 0;
-glyphname = "zero-ar.init";
-lastChange = "2018-03-11 21:03:29 +0000";
-layers = (
-{
-annotations = (
-{
-position = "{764, 1227}";
-text = "This glyph is hack to make a numeral only font render in Firefox.";
-type = Text;
-width = 138;
-},
-{
-position = "{765, 1051}";
-text = "Firefox needs the init table populated to render Arabic, and this creates a dummy entry which replaces zero with itself.";
-type = Text;
-}
-);
-components = (
-{
-alignment = 1;
-name = "zero-ar";
-}
-);
-layerId = "5AEFF443-300A-40AC-BA7E-D2439C71845E";
-width = 1250;
-}
-);
 },
 {
 glyphname = "zero-ar";
@@ -3359,5 +3328,5 @@ manufacturer = Makkuk;
 manufacturerURL = "https://makkuk.com/nimra";
 unitsPerEm = 1250;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
